@@ -1,0 +1,24 @@
+    <section class="relative overflow-hidden pb-16 pt-28 lg:pb-20 lg:pt-32" aria-labelledby="pagina-titulo">
+      <img src="{{P}}assets/img/espiral.svg" alt="" aria-hidden="true"
+           class="pointer-events-none absolute -right-56 -top-40 w-[44rem] max-w-none animate-girar opacity-[0.08] lg:w-[56rem]">
+      <div class="container-site relative">
+        <p class="eyebrow">Clientes</p>
+        <h1 id="pagina-titulo" class="revelar max-w-5xl text-[2.5rem] font-normal leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">
+          Marcas que confiam na <em>Take 1</em>.
+        </h1>
+        <p class="revelar lead mt-8 max-w-3xl">
+          Indústrias, construtoras, instituições de ensino, comércio e serviços que contam com a nossa comunicação
+          ao longo de quase três décadas.
+        </p>
+      </div>
+    </section>
+
+    <section class="pb-24 lg:pb-32" aria-label="Lista de clientes">
+      <div class="container-site">
+        <ul class="grid grid-cols-2 gap-px overflow-hidden border border-tinta/10 bg-tinta/10 sm:grid-cols-3 lg:grid-cols-6">
+{{CLIENTES}}
+        </ul>
+      </div>
+    </section>
+
+{{CTA}}
